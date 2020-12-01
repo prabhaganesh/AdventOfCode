@@ -9,5 +9,3 @@ fun main(args: Array<String>) {
     DayOne().solve(input)
     println("*** End ***")
 }
-
-

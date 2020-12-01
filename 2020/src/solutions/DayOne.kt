@@ -32,9 +32,9 @@ class DayOne {
         return listOf()
     }
 
-    private fun foldAndPrint(threeNumbersTo2020: List<Int>) {
-        println("numbers: $threeNumbersTo2020")
-        val result = threeNumbersTo2020.fold(1, { acc, next -> acc * next })
+    private fun foldAndPrint(numbers: List<Int>) {
+        println("numbers: $numbers")
+        val result = numbers.fold(1, { acc, next -> acc * next })
         println("Result: $result")
         println()
     }
